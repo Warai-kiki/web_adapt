@@ -3,9 +3,7 @@ footer{
     padding: 0;
     box-sizing: border-box;
 }
-/*header,main,footer{
-    padding: 100px;
-}*/
+
 @media(max-width:590){
     .all{
         margin: 5%;
@@ -15,7 +13,7 @@ footer{
 }
 .all{
     flex: 1 0 auto;
-    background-color: rgba(101, 77, 104, 0.85);
+    background-color: rgba(121, 99, 124, 0.925);
     margin: 10%;
     padding: 2%;
     
@@ -27,13 +25,11 @@ header{
 .menu{
     position: relative;
 
+
 }
 .color_bold{
     position: relative;
     background-color: blue;
-    top: 10px;
-    left: 50px;
-    right: 50px;
     text-align: center;
 	width: 100%;
     color: rgb(251, 250, 252);
@@ -42,7 +38,12 @@ header{
     background-attachment: scroll;
 }
 
-
+body{
+    background: url(../img/kosmos-2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
 .warning{
     flex: 1 0 auto;
     position: relative;
@@ -57,7 +58,9 @@ header{
 }
 
 .picture{
-    
+    position: relative;
+    max-height: 50%;
+    max-width: 100%;
 }
 
 .underline_1{
