@@ -1,0 +1,89 @@
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header,main,footer{
+    padding: 100px;
+}*/
+@media(max-width:590){
+    .all{
+        margin: 5%;
+        padding: 1%;
+    }
+    
+}
+.all{
+    flex: 1 0 auto;
+    background-color: rgba(101, 77, 104, 0.85);
+    margin: 10%;
+    padding: 2%;
+    
+}
+
+header{
+    display: flex;
+}
+.menu{
+    position: relative;
+
+}
+.color_bold{
+    position: relative;
+    background-color: blue;
+    top: 10px;
+    left: 50px;
+    right: 50px;
+    text-align: center;
+	width: 100%;
+    color: rgb(251, 250, 252);
+    margin: auto;
+    font-weight: bold;
+    background-attachment: scroll;
+}
+
+
+.warning{
+    flex: 1 0 auto;
+    position: relative;
+    color: rgb(214, 142, 142);
+    background-color: rgb(226, 23, 23);
+    
+}
+
+.italic{
+    color: rgb(154, 170, 12);
+    
+}
+
+.picture{
+    
+}
+
+.underline_1{
+    position: relative;
+    left: 0;
+    text-align: center;
+    outline-style: double;
+    background-color: rgba(148, 0, 211, 0.322);
+}
+
+#pic1{
+    position: relative;
+    top: 5%;
+    left: 50%;
+
+}
+.planet{
+    text-decoration:underline;
+    text-indent: 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(56, 127, 197);
+    color: rgb(238, 226, 211);
+}
+.hole{
+    color: darkred;
+
+    
+}
